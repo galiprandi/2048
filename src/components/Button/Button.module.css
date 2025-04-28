@@ -1,0 +1,24 @@
+.button {
+  background-color: #8f7a66; /* Brownish color */
+  color: #f9f6f2; /* Light text */
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.2s ease;
+  text-align: center;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #a18e7c; /* Lighter brown on hover/focus */
+  outline: none;
+}
+
+.button:active {
+  background-color: #7d6a5a; /* Darker brown when pressed */
+}
+
+/* Add other variants like .secondary if needed */

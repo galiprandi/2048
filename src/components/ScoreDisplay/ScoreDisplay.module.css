@@ -1,0 +1,29 @@
+.scoreContainer {
+  display: flex;
+  justify-content: center;
+  gap: 8px; /* Spacing between score boxes */
+  margin-bottom: 20px; /* Space below the scores */
+}
+
+.scoreBox {
+  background-color: #bbada0; /* Same as board background */
+  padding: 8px 15px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px; /* Ensure some minimum width */
+}
+
+.scoreLabel {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #eee4da; /* Light text for label */
+  margin-bottom: 2px;
+}
+
+.scoreValue {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffffff; /* White text for score value */
+}

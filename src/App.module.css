@@ -1,0 +1,14 @@
+.settingsButton {
+  /* Basic styling for the settings button - adjust as needed */
+  background: none;
+  border: none;
+  font-size: 1.5rem; /* Adjust size */
+  padding: 0.5rem;
+  cursor: pointer;
+  color: inherit; /* Inherit text color from parent */
+  margin-left: auto; /* Push it to the right in the footer */
+}
+
+.settingsButton:hover {
+  opacity: 0.8;
+}

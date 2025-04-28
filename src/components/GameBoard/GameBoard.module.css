@@ -1,0 +1,23 @@
+.gameBoard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  width: 90vmin; /* Use viewport units for responsiveness */
+  max-width: 500px; /* Max size on larger screens */
+  height: 90vmin;
+  max-height: 500px;
+  padding: 10px;
+  background-color: #bbada0;
+  border-radius: 6px;
+  position: relative; /* Needed for absolute positioning of tiles */
+  touch-action: pan-x pan-y; /* Prevent browser default actions like pull-to-refresh */
+  user-select: none; /* Prevent text selection */
+  box-sizing: border-box;
+}
+
+/* Placeholder for grid cell styling */
+.gridCell {
+  background-color: rgba(238, 228, 218, 0.35);
+  border-radius: 3px;
+}
